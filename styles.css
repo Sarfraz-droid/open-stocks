@@ -166,6 +166,9 @@ p {
 }
 
 @media(max-width: 1028px) {
+    .container-fluid {
+        padding: 7% 2%;
+    }
     .title-image {
         position: static;
         transform: rotate(0deg);
