@@ -166,8 +166,9 @@ p {
 }
 
 @media(max-width: 1028px) {
+    #title .container-fluid,
     .container-fluid {
-        padding: 7% 2%;
+        padding: 7% 5%;
     }
     .title-image {
         position: static;
