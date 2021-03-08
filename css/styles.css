@@ -15,7 +15,7 @@ p {
 }
 
 .coloured-section {
-    background-color: #ff4c68;
+    background-color: #41aaa8;
     color: white;
 }
 
@@ -48,7 +48,7 @@ p {
 }
 
 .icon {
-    color: #ef8172;
+    color: #41aaa8;
     margin-bottom: 1rem;
 }
 
@@ -89,13 +89,10 @@ p {
 
 /*TESTEMONIALS*/
 
-#testimonials {
-    background-color: #ef8172;
-}
-
 .testimonial-text {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
+    padding: 0% 10% 0 10%;
 }
 
 .testimonial-image {
@@ -146,8 +143,7 @@ p {
 
 .title-image {
     width: 60%;
-    transform: rotate(25deg);
-    position: absolute;
+    margin-left: 15%;
 }
 
 
@@ -177,5 +173,8 @@ p {
     }
     #title {
         text-align: center;
+    }
+    .testimonial-text {
+        padding: 0%;
     }
 }
